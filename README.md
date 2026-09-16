@@ -38,6 +38,10 @@ I then verified that:
 
 **Result:** SIM activation and network registration confirmed.
 
+#### Mobile Network Settings
+
+![Mobile Network Settings](screenshots/mobile-network-settings.jpg)
+
 ### Step 2: Tested Connectivity
 
 I performed multiple tests to isolate the issue.
@@ -56,6 +60,10 @@ I inspected the Access Point Name (APN) settings on the device.
 **Finding:**
 
 The device contained an APN profile labelled "Red Bull Mobile Internet" (RBM Internet), which appeared to be outdated for the current network.
+
+#### RBM Internet APN
+
+![RBM Internet APN](screenshots/rbm-internet-apn.jpg)
 
 **Testing:**
 
@@ -84,6 +92,10 @@ I then reset the APN settings to default to check whether additional or differen
 - Added a new APN manually using the appropriate settings for the network.
 - Selected the new APN.
 - Tested the mobile data connection.
+
+#### Remove Outdated APN
+
+![Remove Outdated APN](screenshots/remove-outdated-apn.jpg)
 
 **Result:** 4G/LTE mobile data started working again.
 
