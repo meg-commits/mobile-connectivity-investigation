@@ -59,7 +59,7 @@ I inspected the Access Point Name (APN) settings on the device.
 
 **Finding:**
 
-The device contained an APN profile labelled "Red Bull Mobile Internet" (RBM Internet), which appeared to be outdated for the current network.
+The device contained an APN profile labelled "Red Bull Mobile Internet" (RBM Internet) which was not working correctly with 4G/LTE.
 
 #### RBM Internet APN
 
@@ -107,7 +107,7 @@ I did not add this APN manually; it was already selected on the device after the
 
 ## Root Cause
 
-Based on my testing, the existing APN configuration was not working correctly with 4G/LTE on the device.
+Based on my testing, the existing APN configuration was not working with 4G/LTE on the device.
 
 ## Resolution
 
